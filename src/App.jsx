@@ -1,5 +1,10 @@
 import { Shield } from 'lucide-react'
 import { Resumen } from './components/Resumen'
+import Marco from './components/Marco'
+import Delitos from './components/Delitos'
+import Comparacion from './components/Comparacion'
+import Responsabilidades from './components/Responsabilidades'
+import Datos from './components/Datos'
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
         {/* Aquí es donde se muestra tu nuevo componente */}
         <Resumen />
+        <Marco />
+        <Delitos />
+        <Comparacion />
+        <Responsabilidades />
+        <Datos />
       </main>
 
       <footer className="bg-slate-100 text-slate-600 text-sm py-4 px-6">
