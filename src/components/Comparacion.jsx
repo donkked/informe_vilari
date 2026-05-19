@@ -2,15 +2,15 @@ import { GitCompare } from 'lucide-react'
 
 export default function Comparacion() {
   return (
-    <div className="bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8 mb-12">
+    <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-2xl backdrop-blur-sm border border-slate-700/50 max-w-4xl mx-auto p-8 mb-12 shadow-2xl">
       {/* Título Principal */}
       <div className="flex items-center gap-3 mb-6">
-        <GitCompare className="text-indigo-600" size={32} />
-        <h1 className="text-3xl font-bold text-gray-800">Comparación de Marcos Regulatorios por Industria</h1>
+        <GitCompare className="text-indigo-400" size={32} />
+        <h1 className="text-3xl font-bold text-white">Comparación de Marcos Regulatorios por Industria</h1>
       </div>
 
       {/* Párrafo Introductorio */}
-      <p className="text-gray-700 mb-8 leading-relaxed">
+      <p className="text-slate-300 mb-8 leading-relaxed">
         El caso de Riot Games (2023) expone las vulnerabilidades en la industria del entretenimiento digital y el desarrollo de software. Para dimensionar el alcance de las normativas de ciberseguridad, a continuación se presenta una tabla comparativa que contrasta el marco regulatorio aplicable a los videojuegos con los estándares de industrias críticas como la financiera y la de salud.
       </p>
 
