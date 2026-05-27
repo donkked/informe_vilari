@@ -98,22 +98,22 @@ export default function Datos() {
             <tbody>
               <tr className="hover:bg-slate-700/20">
                 <td className="p-3 border border-slate-600/30 font-semibold text-slate-300">Acceso</td>
-                <td className="p-3 border border-slate-600/30 text-slate-300">Solicitar copia de los datos.</td>
+                <td className="p-3 border border-slate-600/30 text-slate-300 italic">"Derecho a exigir información sobre los datos" (Art. 12, Ley 19.628)</td>
                 <td className="p-3 border border-slate-600/30 text-slate-300">Verificar si los atacantes tuvieron acceso a su historial de compras o correos.</td>
               </tr>
               <tr className="hover:bg-slate-700/20">
                 <td className="p-3 border border-slate-600/30 font-semibold text-slate-300">Rectificación</td>
-                <td className="p-3 border border-slate-600/30 text-slate-300">Corregir datos inexactos.</td>
+                <td className="p-3 border border-slate-600/30 text-slate-300 italic">"Modificar datos erróneos, inexactos, equívocos o incompletos" (Art. 12, Ley 19.628)</td>
                 <td className="p-3 border border-slate-600/30 text-slate-300">Actualizar credenciales o correos tras la recuperación de la cuenta.</td>
               </tr>
               <tr className="hover:bg-slate-700/20">
                 <td className="p-3 border border-slate-600/30 font-semibold text-slate-300">Cancelación</td>
-                <td className="p-3 border border-slate-600/30 text-slate-300">Eliminar la cuenta.</td>
+                <td className="p-3 border border-slate-600/30 text-slate-300 italic">"Eliminar datos caducos o sin fundamento legal" (Art. 12, Ley 19.628)</td>
                 <td className="p-3 border border-slate-600/30 text-slate-300">Exigir el borrado definitivo de los datos si el usuario ya no confía en la seguridad de la plataforma.</td>
               </tr>
               <tr className="hover:bg-slate-700/20">
                 <td className="p-3 border border-slate-600/30 font-semibold text-slate-300">Oposición</td>
-                <td className="p-3 border border-slate-600/30 text-slate-300">Negarse al tratamiento.</td>
+                <td className="p-3 border border-slate-600/30 text-slate-300 italic">"Oponerse a la utilización de datos con fines de publicidad" (Art. 12, Ley 19.628)</td>
                 <td className="p-3 border border-slate-600/30 text-slate-300">Solicitar que sus datos de comportamiento no sean usados para telemetría o marketing tras el incidente.</td>
               </tr>
             </tbody>

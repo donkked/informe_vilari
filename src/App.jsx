@@ -1,4 +1,4 @@
-import { Shield, FileText, Scale, AlertTriangle, GitCompare, Users, Database, CheckCircle, Terminal } from 'lucide-react'
+import { Shield, FileText, Scale, AlertTriangle, GitCompare, Users, Database, CheckCircle, Terminal, ExternalLink } from 'lucide-react'
 import { useState } from 'react'
 import { Resumen } from './components/Resumen'
 import Marco from './components/Marco'
@@ -112,7 +112,18 @@ function App() {
             </div>
             <div className="text-right">
               <p className="text-slate-300 font-semibold mb-2">Autor</p>
-              <p className="text-slate-500">Ariel Villarroel</p>
+              <div className="flex items-center justify-end gap-2 mb-1">
+                <p className="text-slate-500">Ariel Villarroel</p>
+                <a
+                  href="https://github.com/donkked"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-blue-400 transition-colors duration-300"
+                  title="GitHub Profile"
+                >
+                  <ExternalLink size={18} />
+                </a>
+              </div>
               <p className="text-slate-500">Docente: Rubén Schnettler L.</p>
             </div>
           </div>

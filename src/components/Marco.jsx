@@ -26,7 +26,7 @@ export default function Marco() {
             Computer Fraud and Abuse Act (CFAA) - 18 U.S.C. § 1030
           </h3>
           <p className="text-slate-400 leading-relaxed">
-            <span className="font-semibold">Justificación:</span> Es la principal ley federal de ciberseguridad en EE. UU., tipificando como delito el acceso no autorizado a sistemas informáticos. En este caso, los cibercriminales vulneraron esta norma al utilizar ingeniería social para conseguir credenciales de empleados y penetrar en los servidores de desarrollo privados de Riot Games de forma ilícita.
+            <span className="font-semibold">Justificación:</span> Principal ley federal estadounidense de ciberseguridad que sanciona el acceso no autorizado a sistemas de computadoras. En el caso Riot Games, se aplicaría directamente por la <span className="italic text-slate-200">"intrusión mediante ingeniería social"</span> mediante la cual los atacantes vulneraron credenciales de empleados y penetraron en los sistemas de desarrollo privados. Esta modalidad de ataque (compromiso de identidades legítimas para infiltración) tipifica específicamente la violación de 18 U.S.C. § 1030(a)(2) y (a)(4), constituyendo fraude electrónico e intentona de obtención de información confidencial.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function Marco() {
             Defend Trade Secrets Act (DTSA) de 2016
           </h3>
           <p className="text-slate-400 leading-relaxed">
-            <span className="font-semibold">Justificación:</span> Esta ley federal estadounidense protege los secretos comerciales frente a su robo y espionaje. La exfiltración del código fuente de League of Legends y de la plataforma antitrampas "Packman" constituye la sustracción de propiedad intelectual crítica. La exposición de este código es gravísima, ya que compromete la integridad de entornos competitivos exigentes, donde mantener el servidor libre de trampas es el núcleo del negocio.
+            <span className="font-semibold">Justificación:</span> Ley federal que protege secretos comerciales contra robo, espionaje y divulgación no autorizada. La exfiltración de códigos fuente (League of Legends, TFT, Packman) constituye robo de propiedad intelectual crítica. La demanda de <span className="italic text-slate-200">"rescate de 10 millones de dólares"</span> agrava la infracción, configurando extorsión económica sobre activos protegibles. El daño es cuantificable: exposición de herramientas antitrampas destruye ventaja competitiva, genera multiplicación de cheats, afecta ingresos de esports y confianza de jugadores. DTSA permite acciones civiles por daño injustificado y lucro cesante.
           </p>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Marco() {
             Ley N° 21.459 sobre Delitos Informáticos
           </h3>
           <p className="text-slate-400 leading-relaxed">
-            <span className="font-semibold">Justificación:</span> Esta norma, que adecúa a Chile al Convenio de Budapest, sería la herramienta legal principal si el ataque hubiera ocurrido bajo jurisdicción chilena. Aplicaría directamente para sancionar el acceso ilícito a los sistemas internos de la compañía y penalizaría la extorsión cibernética, dado que los atacantes exigieron un pago de 10 millones de dólares.
+            <span className="font-semibold">Justificación:</span> Ley chilena que implementa Convenio de Budapest. Bajo escenario hipotético de jurisdicción chilena, sería herramienta legal principal. Aplica directamente: (1) Art. 2 tipifica acceso no autorizado a sistemas internos; (2) Art. 8 sanciona abuso de dispositivos/software; (3) Art. 268 sexies penaliza extorsión digital. El robo del <span className="italic text-slate-200">"código fuente de Packman"</span> (plataforma antitrampas) configura sustracción de información confidencial y saber-hacer empresarial. La demanda de rescate agrega elemento de chantaje. Esta ley permite persecución penal de persona natural (criminales) y acción reparatoria de Riot Games.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export default function Marco() {
             Ley N° 19.628 sobre Protección de la Vida Privada
           </h3>
           <p className="text-slate-400 leading-relaxed">
-            <span className="font-semibold">Justificación:</span> Regula el tratamiento y resguardo de datos personales. Si bien Riot Games comunicó rápidamente que no había evidencia de robo de datos de los jugadores, la empresa estuvo obligada bajo este tipo de marcos a desplegar una investigación forense exhaustiva para descartar la filtración de información personal o sensible de sus millones de usuarios.
+            <span className="font-semibold">Justificación:</span> Ley chilena que regula recopilación, almacenamiento y tratamiento de datos personales. Es subsidiaria pero relevante: aunque Riot comunicó ausencia de robo de datos de jugadores, el ciberataque generó obligaciones procedimentales inmediatas (Art. 11 bis: responsables de bases de datos deben implementar medidas de seguridad física y técnica). La breaa activa responsabilidad de Riot por: (1) investigación forense exhaustiva de alcance; (2) notificación a autoridades (SBIF si datos financieros); (3) documentación de medidas correctivas. Incumplimiento genera multas y daño moral accionable.
           </p>
         </div>
       </div>

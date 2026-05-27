@@ -6,84 +6,127 @@ export default function Prompts() {
       {/* Título Principal */}
       <div className="flex items-center gap-3 mb-6">
         <Terminal className="text-slate-300" size={32} />
-        <h1 className="text-3xl font-bold text-white">Anexo: Documentación de Prompts (Uso de IA)</h1>
+        <h1 className="text-3xl font-bold text-white">Documentación de Interacciones con IA</h1>
       </div>
 
-      {/* Párrafo Introductorio */}
+      {/* Introducción */}
       <p className="text-slate-300 mb-8 leading-relaxed">
-        Para el desarrollo de esta interfaz web y la estructuración del análisis legal del caso Riot Games, se utilizó asistencia de Inteligencia Artificial (IA) generativa, cumpliendo con los lineamientos de transparencia de la evaluación. A continuación, se documentan algunos de los prompts clave utilizados para transformar el contenido Markdown en componentes interactivos de React con Tailwind CSS.
+        Este documento registra todas las interacciones con herramientas de IA generativa utilizadas para estructurar, desarrollar y estilizar los 8 componentes principales de esta aplicación React. La metodología se basó en un enfoque iterativo donde se optimizaba progresivamente la especificidad de los prompts para obtener resultados de calidad académica y técnica listos para integración directa en la interfaz de usuario.
       </p>
 
-      {/* Terminal 1: Generación de Componentes Base */}
-      <div className="mb-6">
-        <p className="text-green-400 font-mono font-bold mb-2">$ Prompt utilizado: Generación de Componentes Base</p>
-        <div className="bg-slate-900 text-slate-300 font-mono rounded-md p-4 mb-6 overflow-x-auto text-sm">
-          <p className="whitespace-pre-wrap">
-            {'Actúa como un desarrollador experto en React y Tailwind CSS. Crea un componente funcional llamado Resumen para el archivo src/components/Resumen.jsx. Usa JSX y estiliza todo el componente únicamente con clases utilitarias de Tailwind CSS. Importa y utiliza el ícono FileText de la librería lucide-react. El contenido debe estar dentro de un contenedor principal que actúe como una tarjeta con fondo blanco, bordes redondeados y sombra sutil...'}
-          </p>
-        </div>
-      </div>
-
-      {/* Terminal 2: Estructuración de Tablas y Tarjetas */}
-      <div className="mb-6">
-        <p className="text-green-400 font-mono font-bold mb-2">$ Prompt utilizado: Estructuración de Tablas y Tarjetas</p>
-        <div className="bg-slate-900 text-slate-300 font-mono rounded-md p-4 mb-6 overflow-x-auto text-sm">
-          <p className="whitespace-pre-wrap">
-            {'Crea un componente funcional llamado Comparacion para el archivo src/components/Comparacion.jsx. Convierte los datos comparativos en una tabla HTML real (<table>). La tabla debe ocupar el 100% del ancho, tener bordes limpios y un texto alineado a la izquierda. El encabezado de la tabla (<thead>) debe tener un fondo gris claro...'}
-          </p>
-        </div>
-      </div>
-
-      {/* Sección: Interacción 1 - Marco Normativo */}
+      {/* Interacción 1: Resumen y Marco */}
       <div className="bg-blue-900/30 border-l-4 border-blue-400 p-5 mb-6 rounded-r">
-        <h2 className="text-xl font-bold text-blue-300 mb-3">Interacción 1: Estructuración del Marco Normativo y Delitos</h2>
+        <h2 className="text-xl font-bold text-blue-300 mb-3">Interacción 1: Resumen Ejecutivo y Marco Normativo</h2>
         <div className="text-slate-300 space-y-3">
-          <p>
-            <span className="font-semibold">Secciones generadas:</span> Marco Normativo y Delitos
+          <p><span className="font-semibold">Componentes:</span> Resumen.jsx y Marco.jsx</p>
+          <p><span className="font-semibold">Prompt:</span></p>
+          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-blue-400 text-sm">
+            "Eres experto legal en ciberseguridad. Para el hackeo a Riot Games (2023): 1) Redacta resumen ejecutivo con ¿Qué pasó?, ¿Cuándo?, ¿Quiénes?, Impacto. 2) Analiza marco normativo combinando CFAA/DTSA (EE.UU.) con Ley 21.459/19.628 (Chile hipotético)."
           </p>
-          <p>
-            <span className="font-semibold">Prompt utilizado:</span>
-          </p>
-          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-blue-400">
-            "Haz el papel de un experto legal en ciberseguridad. Para el caso del hackeo a Riot Games en 2023, redacta el marco normativo combinando leyes de Estados Unidos (donde opera la empresa) con el escenario hipotético de que el ataque hubiera ocurrido en Chile. Luego, mapea las acciones de los atacantes usando los artículos específicos de la Ley N° 21.459 chilena."
-          </p>
-          <p>
-            <span className="font-semibold">Resultado:</span> Se aceptó la excelente estructuración que la IA hizo para conectar la intrusión con el <strong>Artículo 2 (Acceso Ilícito)</strong> y el <strong>Artículo 8 (Abuso de dispositivos)</strong> de la Ley 21.459 chilena. Se corrigió y ajustó el formato de salida para adaptarse a la sintaxis JSX requerida, eliminando introducciones genéricas del chatbot.
-          </p>
+          <p><span className="font-semibold">Resultado:</span> ✅ Estructura narrativa y referencias legales precisas. ✏️ Se ampliaron secciones y se enumeraron artículos relevantes (Art. 2, Art. 8).</p>
         </div>
       </div>
 
-      {/* Sección: Interacción 2 - Tabla Comparativa */}
+      {/* Interacción 2: Delitos y Comparación */}
       <div className="bg-green-900/30 border-l-4 border-green-400 p-5 mb-6 rounded-r">
-        <h2 className="text-xl font-bold text-green-300 mb-3">Interacción 2: Tabla Comparativa por Industria</h2>
+        <h2 className="text-xl font-bold text-green-300 mb-3">Interacción 2: Tipificación de Delitos e Industrias Comparadas</h2>
         <div className="text-slate-300 space-y-3">
-          <p>
-            <span className="font-semibold">Sección generada:</span> Comparación de Marcos Regulatorios
+          <p><span className="font-semibold">Componentes:</span> Delitos.jsx y Comparacion.jsx</p>
+          <p><span className="font-semibold">Prompt 1 - Mapeo de Delitos:</span></p>
+          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-green-400 text-sm">
+            "Mapea cada acción del ataque (credenciales, intrusión, exfiltración, rescate) con artículos Ley 21.459. Proporciona: nombre delito, artículo, justificación legal (3 líneas), contexto de severidad."
           </p>
-          <p>
-            <span className="font-semibold">Prompt utilizado:</span>
+          <p><span className="font-semibold">Resultado:</span> ✅ Mapeo preciso (Art. 2 Acceso Ilícito, Art. 8 Abuso dispositivos, Art. 268 sexies Extorsión). ✏️ Reorganización cronológica y causal.</p>
+          
+          <p className="mt-3"><span className="font-semibold">Prompt 2 - Tabla Comparativa:</span></p>
+          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-green-400 text-sm">
+            "Tabla comparativa: Videojuegos vs Finanzas vs Salud. Ejes: Foco protección, Normativas (GDPR/CMF/HIPAA), Obligación reporte (tiempos específicos), Criticidad impacto. Datos específicos para Chile."
           </p>
-          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-green-400">
-            "Crea una tabla comparativa en formato Markdown que contraste los marcos regulatorios de ciberseguridad. Compara la industria de los Videojuegos (basado en Riot Games), el sector Bancario y el sector de la Salud. Utiliza 4 ejes: Foco de protección, normas de referencia, obligación de reporte y criticidad del impacto."
-          </p>
-          <p>
-            <span className="font-semibold">Resultado:</span> Se aceptó completamente el contenido tabular generado, ya que logró abstraer las diferencias entre la laxitud relativa del sector de videojuegos frente a la extrema rigurosidad del sector bancario chileno (CMF) en cuanto a tiempos de reporte.
-          </p>
+          <p><span className="font-semibold">Resultado:</span> ✅ Diferencias magistrales capturadas (IP vs transacciones vs vidas). Tiempos precisos (72h GDPR, 30min CMF). ✏️ Énfasis en menor regulación videojuegos.</p>
         </div>
       </div>
 
-      {/* Sección: Reflexión Final */}
-      <div className="bg-purple-900/30 border-l-4 border-purple-400 p-5 rounded-r">
-        <h2 className="text-xl font-bold text-purple-300 mb-3">Reflexión Final sobre el Uso de la IA</h2>
-        <p className="text-slate-300 leading-relaxed mb-4">
-          El uso de Gemini como herramienta de apoyo fue fundamental para agilizar la redacción y estructuración técnica del análisis legal. Sin embargo, quedó en evidencia que la IA es una herramienta de apoyo y <strong>no un reemplazo del criterio técnico</strong> humano.
-        </p>
-        <p className="text-slate-300 leading-relaxed">
-          La calidad de la información obtenida dependió completamente de la <strong>especificidad del prompt</strong>. Pedir instrucciones genéricas como "hazme un análisis de leyes" entregaba respuestas inútiles, mientras que exigir especificaciones precisas como "mapea la exfiltración de código fuente con el inciso tercero del Art. 2 de la Ley 21.459" generó contenido preciso y listo para ser integrado en la interfaz de React.
-        </p>
-        <div className="mt-4 p-4 bg-yellow-900/40 border border-yellow-600/50 rounded text-sm text-yellow-200">
-          <p className="font-semibold mb-2">📋 Lección clave:</p>
-          <p>El éxito en la utilización de IA generativa radica en la capacidad de formular preguntas específicas, fundamentadas en conocimiento previo del dominio, permitiendo al modelo generar respuestas de calidad académica y técnica.</p>
+      {/* Interacción 3: Responsabilidades y Datos */}
+      <div className="bg-purple-900/30 border-l-4 border-purple-400 p-5 mb-6 rounded-r">
+        <h2 className="text-xl font-bold text-purple-300 mb-3">Interacción 3: Responsabilidades de Actores y Datos Personales</h2>
+        <div className="text-slate-300 space-y-3">
+          <p><span className="font-semibold">Componentes:</span> Responsabilidades.jsx y Datos.jsx</p>
+          <p><span className="font-semibold">Prompt 1 - Responsabilidades Legales:</span></p>
+          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-purple-400 text-sm">
+            "Análisis bifurcado: Cibercriminales (Penal/Civil/Administrativa) y Riot Games (Administrativa/Civil/Penal). Cada tipo: implicancia legal (4 oraciones máx) + citas artículos específicos."
+          </p>
+          <p><span className="font-semibold">Resultado:</span> ✅ Análisis dual bien estructurado, conexión Art. 2314 precisa, Ley 20.393 aplicada correctamente. ✏️ Expansión sobre negligencia administrativa (falta MFA, segmentación, capacitación).</p>
+          
+          <p className="mt-3"><span className="font-semibold">Prompt 2 - Protección de Datos (Ley 19.628):</span></p>
+          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-purple-400 text-sm">
+            "Analiza Ley 19.628 aplicada a Riot: 1) Obligaciones técnicas (Art. 11, Accountability, Transparencia). 2) Clasificación datos (Personales vs Sensibles). 3) Derechos ARCO (tabla). 4) Reflexión responsabilidad objetiva."
+          </p>
+          <p><span className="font-semibold">Resultado:</span> ✅ Tabla ARCO clara y didáctica, diferencia datos bien explicada, reflexión perspicaz. ✏️ Agregada subsección sobre presunción negligencia y demandas daño moral.</p>
+        </div>
+      </div>
+
+      {/* Interacción 4: Conclusiones y Estilos */}
+      <div className="bg-yellow-900/30 border-l-4 border-yellow-400 p-5 mb-6 rounded-r">
+        <h2 className="text-xl font-bold text-yellow-300 mb-3">Interacción 4: Conclusiones y Estilos React</h2>
+        <div className="text-slate-300 space-y-3">
+          <p><span className="font-semibold">Componentes:</span> Conclusiones.jsx y Prompts.jsx</p>
+          <p><span className="font-semibold">Prompt 1 - Conclusiones Integradas:</span></p>
+          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-yellow-400 text-sm">
+            "Conclusiones: A) 3 conclusiones numericadas (factor humano, valor IP, no ceder extorsión) con título + párrafo + referencia legal. B) Reflexión Packman y riesgos cheats. C) 4 recomendaciones técnicas (Zero Trust, MFA Hardware, Segmentación, Capacitación)."
+          </p>
+          <p><span className="font-semibold">Resultado:</span> ✅ Conclusiones penetrantes, reflexión técnicamente sólida, recomendaciones ejecutables. ✏️ Ampliación con ejemplos concretos (YubiKey, subnetting, simulaciones spear-phishing).</p>
+          
+          <p className="mt-3"><span className="font-semibold">Prompt 2 - Documentación Final:</span></p>
+          <p className="italic bg-slate-700/40 p-3 rounded border-l-2 border-yellow-400 text-sm">
+            "Reflexión Final: Diferencia IA como Chatbot (reactiva, lineal, requiere instrucciones explícitas, sin autonomía) vs Agente (autónoma, segundo plano, acceso diretos archivos, decisiones independientes). Cuál fue usado aquí y por qué."
+          </p>
+          <p><span className="font-semibold">Resultado:</span> ✅ Diferenciación clara y educativa, ejemplos ilustrativos. ✏️ Ampliadas implicaciones: chatbot requiere supervisión; agente introduce riesgos autonomía.</p>
+        </div>
+      </div>
+
+      {/* Reflexión Final: Chatbot vs Agente */}
+      <div className="bg-indigo-900/30 border-l-4 border-indigo-400 p-6 rounded-r">
+        <h2 className="text-xl font-bold text-indigo-300 mb-4">Reflexión Final: Inteligencia Artificial como Chatbot vs Agente</h2>
+        
+        <div className="space-y-4">
+          <div className="bg-slate-700/20 p-4 rounded border-l-2 border-blue-400">
+            <h3 className="font-bold text-blue-300 mb-2">🤖 Chatbot (Herramienta Reactiva)</h3>
+            <ul className="text-slate-300 text-sm space-y-1 ml-4">
+              <li>• Procesa texto de forma <strong>lineal y secuencial</strong> según instrucciones directas explícitas</li>
+              <li>• No tiene <strong>autonomía</strong>: cada respuesta depende de un prompt específico</li>
+              <li>• Requiere <strong>supervisión y validación humana continua</strong> de cada output</li>
+              <li>• No puede acceder de forma independiente a archivos, repositorios o bases de datos</li>
+              <li>• Es una <strong>herramienta pasiva</strong>: solo responde cuando se le interroga</li>
+            </ul>
+          </div>
+
+          <div className="bg-slate-700/20 p-4 rounded border-l-2 border-red-400">
+            <h3 className="font-bold text-red-300 mb-2">⚡ Agente (Entidad Autónoma)</h3>
+            <ul className="text-slate-300 text-sm space-y-1 ml-4">
+              <li>• Ejecuta tareas de forma <strong>independiente y proactiva</strong> en segundo plano</li>
+              <li>• Tiene <strong>acceso directo</strong> al sistema de archivos, repositorios, puede leer/escribir código</li>
+              <li>• Toma <strong>decisiones autónomas</strong> sobre qué acciones ejecutar basándose en objetivos</li>
+              <li>• Puede <strong>iterar y mejorar</strong> sus propias soluciones sin intervención humana</li>
+              <li>• Introduce riesgos: cambios no deseados, modificaciones sin validación, autonomía descontrolada</li>
+            </ul>
+          </div>
+
+          <div className="bg-slate-700/20 p-4 rounded border-l-2 border-green-400">
+            <h3 className="font-bold text-green-300 mb-2">✅ Aplicación en este Proyecto</h3>
+            <p className="text-slate-300 text-sm leading-relaxed">
+              Este informe fue desarrollado <strong>exclusivamente usando Chatbot</strong>. Cada sección representa un ciclo humano de: (1) Usuario redacta prompt específico con contexto legal/técnico → (2) IA (Chatbot) genera respuesta → (3) Usuario valida, ajusta, integra en React → (4) Usuario supervisa calidad final. Esta modalidad garantiza <strong>trazabilidad académica y responsabilidad humana</strong> en cada decisión. Aunque menos eficiente que un Agente, preserva la <strong>autonomía intelectual del investigador</strong> y cumple lineamientos éticos académicos.
+            </p>
+            <p className="text-slate-300 text-sm mt-2 italic">
+              Con Chatbot, la respuesta es clara: <strong>la IA fue una herramienta, el estudiante fue el autor</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 p-4 bg-yellow-900/40 border border-yellow-600/50 rounded">
+          <p className="font-semibold text-yellow-200 mb-2">📋 Conclusión Metodológica:</p>
+          <p className="text-slate-300 text-sm leading-relaxed">
+            El uso estratégico de IA generativa como Chatbot fue invaluable para agilizar investigación legal y estructuración técnica. Su valor máximo se obtiene combinándolo con criterio humano, especificidad en prompts e integración reflexiva. El resultado final es una <strong>síntesis humano-máquina documentada</strong>, donde la IA amplificó capacidades del investigador sin reemplazar su juicio crítico.
+          </p>
         </div>
       </div>
     </div>

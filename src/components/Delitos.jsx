@@ -78,18 +78,18 @@ export default function Delitos() {
       <div className="bg-slate-700/30 border border-slate-600/50 rounded-lg p-6 hover:bg-slate-700/50 transition-all">
         <div className="mb-4">
           <p className="text-white mb-2">
-            <span className="font-bold">Acción:</span> Exigencia de un rescate millonario (Ciberextorsión)
+            <span className="font-bold">Acción:</span> Paralización de la distribución de actualizaciones
           </p>
           <p className="text-slate-400 leading-relaxed">
-            <span className="font-semibold">Descripción del hecho:</span> Los atacantes enviaron un correo electrónico exigiendo a la empresa el pago de 10 millones de dólares, amenazando con hacer público el código fuente si no se cumplía su demanda.
+            <span className="font-semibold">Descripción del hecho:</span> Como consecuencia de la intrusión, Riot Games se vio obligada a detener temporalmente su ciclo de lanzamiento de parches, patches de seguridad y actualizaciones de contenido para sus juegos (League of Legends, TFT, Valorant) mientras investigaba la brecha y aseguraba nuevamente sus sistemas de desarrollo. Esta paralización afectó el funcionamiento normal de sus operaciones y servicios a nivel global.
           </p>
         </div>
         <div className="border-t border-slate-600/50 pt-4">
           <p className="text-white mb-2">
-            <span className="font-bold">Delito Tipificado:</span> <span className="text-orange-600 font-semibold">Extorsión (Artículo 268 sexies del Código Penal)</span>
+            <span className="font-bold">Delito Tipificado:</span> <span className="text-orange-600 font-semibold">Sabotaje Informático (Artículo 5 de la Ley N° 21.459)</span>
           </p>
           <p className="text-slate-400 leading-relaxed">
-            <span className="font-semibold">Justificación legal:</span> Aunque la Ley 21.459 es la principal norma de delitos informáticos, la extorsión como tal se tipifica a través del Código Penal chileno. Las modificaciones recientes al sistema penal permiten que la ciberextorsión se persiga castigando el constreñimiento ilegítimo que busca un provecho económico.
+            <span className="font-semibold">Justificación legal:</span> El Artículo 5 de la Ley 21.459 sanciona a quien 'sin autorización, altere, interrumpa o cause una interferencia en el funcionamiento de un sistema informático o la prestación de un servicio telemático'. La intrusión obstaculizó directamente el normal funcionamiento y lanzamiento de actualizaciones críticas, causando interrupción de servicios a millones de usuarios y alterando la cadena de desarrollo de Riot Games. Esta interferencia configura sabotaje informático al impedir la prestación ordinaria de servicios.
           </p>
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function Responsabilidades() {
 
       {/* Párrafo Introductorio */}
       <p className="text-slate-300 mb-8 leading-relaxed">
-        En el marco del ciberataque sufrido por Riot Games en enero de 2023, se identifican dos actores principales con roles diametralmente opuestos. A continuación, se analiza la responsabilidad penal, civil y administrativa de cada uno, aplicando los preceptos de la legislación chilena como marco de referencia hipotético.
+        En el marco del ciberataque sufrido por Riot Games en enero de 2023, se identifican tres actores principales con roles diferenciados. A continuación, se analiza la responsabilidad penal, civil y administrativa de cada uno, aplicando los preceptos de la legislación chilena como marco de referencia hipotético.
       </p>
 
       {/* Bloque 1: Los Cibercriminales */}
@@ -75,6 +75,39 @@ export default function Responsabilidades() {
           <div>
             <p className="text-slate-300">
               <span className="font-bold">Responsabilidad Penal:</span> Como entidad corporativa, Riot Games es víctima y no tiene responsabilidad penal directa por el ataque. No obstante, conforme a la Ley N° 20.393 (Responsabilidad Penal de las Personas Jurídicas), la empresa tiene la obligación de contar con modelos de prevención. Su deber primordial ante un incidente de esta naturaleza es no encubrir el ataque y colaborar activamente con la justicia entregando los antecedentes y registros (logs) de la intrusión.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Bloque 3: Usuarios Finales (Jugadores) */}
+      <div>
+        <div className="bg-blue-600/40 text-white p-3 rounded-t-md">
+          <h2 className="text-2xl font-bold">Usuarios Finales (Jugadores)</h2>
+        </div>
+        <div className="bg-slate-700/30 border border-slate-600/50 p-5 rounded-b-md">
+          <p className="text-slate-300 mb-5 leading-relaxed">
+            Los millones de jugadores de Riot Games son víctimas colaterales del ciberataque. Aunque en este caso no hubo compromiso verificado de datos personales, los usuarios tienen derechos y facultades legales que pueden ejercer.
+          </p>
+
+          {/* Responsabilidad Penal */}
+          <div className="mb-5">
+            <p className="text-slate-300 mb-2">
+              <span className="font-bold">Responsabilidad Penal:</span> Nula. Los usuarios finales tienen la calidad de víctimas del ataque y no portan responsabilidad penal alguna por los hechos delictivos ocurridos.
+            </p>
+          </div>
+
+          {/* Responsabilidad Civil */}
+          <div className="mb-5">
+            <p className="text-slate-300 mb-2">
+              <span className="font-bold">Responsabilidad Civil:</span> Los jugadores poseen facultad activa para ejercer demandas colectivas de indemnización por daño moral conforme al Artículo 2314 del Código Civil chileno (responsabilidad extracontractual) y bajo la Ley N° 19.496 sobre Protección de los Derechos de los Consumidores. Si se probara que el incidente generó daño psicológico, estrés o pérdida de confianza en la plataforma, pueden accionar por reparación de perjuicios.
+            </p>
+          </div>
+
+          {/* Responsabilidad Administrativa */}
+          <div>
+            <p className="text-slate-300">
+              <span className="font-bold">Responsabilidad Administrativa:</span> Los usuarios finales tienen derecho a ingresar reclamos formales como titulares de datos personales conforme a la Ley N° 19.628 sobre Protección de la Vida Privada. Pueden solicitar información sobre qué datos fueron expuestos (si los hubiera), acceso a sus registros, rectificación de información errónea, y cancelación de datos bajo los derechos ARCO (Acceso, Rectificación, Cancelación, Oposición).
             </p>
           </div>
         </div>
